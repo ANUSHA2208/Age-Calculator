@@ -15,24 +15,25 @@ $(".button-1").click(function resetForm()
 
 function age() {
 
-    var x = $(".date").val();
-                if (x === "") {
+      var x = $(".date").val();
+      
+                if (x === "" || x > "31") {
                     alert("Enter DOB properly");
                     $(".date").focus();
                     return "";
                 }
-    var x = $(".month").val();
-                if (x === "") {
+    var y = $(".month").val();
+                if (y === "" || y>12) {
                     alert("Enter DOB properly");
                     $(".month").focus();
                     return "";
                 }
-    var x = $(".year").val();
-                if (x === "") {
+    var z = $(".year").val();
+                if (z === "") {
                     alert("Enter DOB properly");
                     $(".year").focus();
                     return "";
-                }            
+                }           
 
     var d1 = document.getElementById('date').value;
     var m1 = document.getElementById('month').value;
