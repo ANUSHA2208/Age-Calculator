@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    font-family: 'Quicksand';
    
    }
    
@@ -59,7 +60,7 @@
    .title{
     font-size: 20px;
     text-align: left;
-    font-family: sans-serif;
+    font-family: 'Quicksand';
     font-weight: normal;
     line-height: 0.5;
     letter-spacing: 0.5px;
@@ -147,7 +148,7 @@
 and (min-device-width : 320px) 
 and (max-device-width : 480px) 
 {
-/* Styles */
+  
 }
 
 /* Smartphones (landscape) ----------- */
