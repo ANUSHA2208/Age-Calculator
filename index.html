@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width,height=device-height,initial-scale=1.0"/>
+		<title>Document</title>
+        <link rel="stylesheet" type="text/css" href="styles.css">
+	</head>
+	<body>
+    <div class="container">
+       <div class="heading">
+        <h1>AGE CALCULATOR</h1>
+       </div>
+       <div class="block">
+        <p class="title">Date</p>
+        <input class="date" type="text" name="date" id="date" placeholder="dd" required="required" minlength="1" maxlength="2" />
+      </div>
+      <div class="block">
+        <p class="title">Month</p>
+        <input class="month" type="text" name="month" id="month" placeholder="mm" required="required" minlength="1" maxlength="2" />
+      </div>
+      <div class="block">
+        <p class="title">Year</p>
+        <input class="year" type="text" name="year" id="year" placeholder="yyyy" required="required" minlength="4" maxlength="4" />
+      </div>
+      <div class="base">
+        <input class="button mgn-try" type="button" name="submit" value="Submit" onclick="age()" />
+        <button class="button-1" type="button" onclick="age()">Retry</button>
+       </div>
+       <div id="age"></div>
+       
+
+    </div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="index.js"></script>
+    </body>
+</html>
