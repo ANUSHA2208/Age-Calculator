@@ -1,7 +1,7 @@
       
 $(".button-1").click(function()
 {
-    window.location.href = "http://127.0.0.1:5500/index.html";
+    window.location.href = "https://anusha2208.github.io/Age-Calulator/";
 });
 
 
