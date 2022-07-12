@@ -1,8 +1,13 @@
       
-$(".button-1").click(function()
+$(".button-1").click(function resetForm()
 {
-    window.location.href = "https://anusha2208.github.io/Age-Calulator/";
+  $(".date").val("")
+  $(".month").val("");
+  $(".year").val("");
+  $('#age').html('');
+  $(".date").focus();
 });
+
 
 
 
